@@ -1,6 +1,3 @@
-import pandas as pd
-
-
 def validate_dataset(df):
     """Validate dataset schema and quality"""
     required_columns = [
@@ -25,3 +22,4 @@ def validate_dataset(df):
         return False
 
     return True
+
